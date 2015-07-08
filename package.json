@@ -1,0 +1,33 @@
+{
+  "name": "license-overview",
+  "version": "0.0.1",
+  "description": "Generate an overview of licenses used in a project.",
+  "repository": "https://github.com/weigo/grunt-license-overview.git",
+  "author": {
+    "name": "Dirk Weigenand",
+    "email": "Dirk.Weigenand@gmx.de",
+    "url": ""
+  },
+  "keywords": [
+    "gruntplugin license checker overview generator"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "xmlbuilder": "^2.6.4"
+  }
+}

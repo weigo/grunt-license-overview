@@ -1,0 +1,34 @@
+body {
+    font-family: 'trebuchet ms', verdana, arial, sans-serif;
+}
+
+aside nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+table, th, td {
+    border: solid 1px black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead th {
+    text-align: left;
+}
+
+aside.nav {
+    position: relative;
+    width: 20%;
+}
+
+.license-overview {
+    position: relative;
+    width: 80%;
+}
